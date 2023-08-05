@@ -1,0 +1,21 @@
+html {
+    background-color: antiquewhite;
+    color: tomato;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ ol li {
+    list-style-type: none;
+    text-align: center;
+}
+.click {
+    font-size: 32px;
+    color: lightcoral;
+}
+a:visited{
+    color: lightcoral;
+  }
+  img {
+    height: 400px;
+    width: auto;
+  }
