@@ -1,8 +1,15 @@
-html {
-    background-color: antiquewhite;
+* {
+    background-color: grey;
     color: tomato;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    display: block;
+}
+title {
+  display: none;
+}
+h1 {
+  font-size: 200%;
 }
  ol li {
     list-style-type: none;
@@ -11,11 +18,22 @@ html {
 .click {
     font-size: 32px;
     color: lightcoral;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.foods {
+  padding: 25px 65px 25px 10px;
+  margin: 0px;
+  border: 0px;
 }
 a:visited{
     color: lightcoral;
   }
-  img {
-    height: 400px;
+img {
+    height: 250px;
     width: auto;
+    box-align: center;
+    padding-left: 310px;
+    margin: 0px;
   }
