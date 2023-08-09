@@ -4,36 +4,25 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     display: block;
-}
+    border: lightcyan 4px;
+  }
 title {
   display: none;
 }
 h1 {
-  font-size: 200%;
+  font-size: 400%;
 }
- ol li {
-    list-style-type: none;
-    text-align: center;
-}
-.click {
-    font-size: 32px;
-    color: lightcoral;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-}
-.foods {
-  padding: 25px 65px 25px 10px;
-  margin: 0px;
-  border: 0px;
+.flex-container {
+  display: flex;
+  flex: auto;
+  align-content: center;
+  margin-left: 100px;
 }
 a:visited{
     color: lightcoral;
   }
 img {
-    height: 250px;
+    height: 350px;
     width: auto;
-    box-align: center;
-    padding-left: 310px;
     margin: 0px;
   }
